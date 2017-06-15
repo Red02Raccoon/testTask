@@ -1,0 +1,60 @@
+/* общие стили_сброс */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html, body, ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*главные цвета сайта*/
+
+$orange: #febe10;
+$blue: #bbd5f0;
+$white: #fff;
+$whiteMenu: #f6f6f6;
+$whiteMenu2: #eaf2ee;
+$greenMenu: rgb(0, 166, 84);
+$greenText: #008639;
+$grayText: #ababab;
+$darkGrayText: #3a3a3a;
+$blackText: #1c1c1c;
+$red: #f84141;
+
+
+/* общие стили страницы*/
+body {
+    font-family: NotoSansRegular;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+}

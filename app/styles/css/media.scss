@@ -1,0 +1,163 @@
+@media screen and (max-width: 1320px) {
+	.slider__image {
+    	margin-left: 0; 
+    	width: 65%;
+		margin: 0 auto;
+ 	}
+
+}
+
+@media screen and (max-width: 1140px) {
+.header__logo {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.header__pic {
+	display: block;
+	margin: 0 auto;
+	width: 92px;
+  	 height: auto;
+}
+
+.header__menu {
+	width: 100%;
+}
+
+.menu__item {
+	width: 24%;
+}
+
+}
+
+
+@media screen and (max-width: 920px) {
+	.slider__image {
+		float: none;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.slider__content {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+
+	.slider__desc {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+ }
+
+
+@media screen and (max-width: 635px) {
+.menu__item {
+    display: block;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.header {
+	position: relative;
+}
+
+.menu__list {
+	padding-right: 0;
+	position: absolute;
+	z-index: 12;
+}
+
+.menu__item {
+	border-right: none;
+	border-bottom: 1px solid #fff;
+}
+
+.menu__link {
+	display: block;
+	width: auto;
+}
+
+.menu__item:last-child {
+	 float: none; 
+}
+
+.menu__list {
+	display: none;
+}
+
+.menu__hidden {
+	font-size: 0;
+	display: block;
+	width: 78px;
+	height: 78px;
+	background-color: #f6f6f6;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url("../images/decor/menu.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.header__menu {
+	background-color: $blue;
+}
+
+
+.header {
+	position: relative;
+	margin-bottom: 0;
+}
+
+
+
+
+
+.content-menu {
+	width: 100%;
+}
+
+
+.slider__list {
+	padding-top: 55px;
+}
+
+.slider__button {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.slider__title {
+    font-size: 47px;
+    margin-bottom: 17px;
+}
+
+.footer__left {
+    padding-left: 0;
+    width: 56%;
+}
+
+.footer__right {
+    width: 44%;
+}
+
+.footer__copy {
+    margin-left: 0; 
+}
+.footer__logo-by {
+    padding-right: 0;
+}
+
+.button__link:hover .button__link-arrow  {
+	
+}
+
+.bx-viewport {
+	height: 100% !important;
+}
+
+
+}
